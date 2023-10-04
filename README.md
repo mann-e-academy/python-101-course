@@ -1,0 +1,2 @@
+<span direction=rtl>
+</span>
