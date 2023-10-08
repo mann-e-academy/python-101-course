@@ -35,3 +35,11 @@ round(5.468, 2)# 5.47 --> round to nth digit
 bin(512)       # '0b1000000000' -->  binary format
 hex(512)       # '0x200' --> hexadecimal format
 ```
+
+```python
+# Converting Strings to Numbers
+age = input("How old are you?")
+age = int(age)
+pi = input("What is the value of pi?")
+pi = float(pi)
+```
