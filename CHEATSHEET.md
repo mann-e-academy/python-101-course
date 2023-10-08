@@ -88,3 +88,12 @@ len('turtle') # 6
 'oh hi there'.find('i')               # 4 --> returns the starting index position of the first occurrence
 'oh hi there'.count('e')              # 2
 ```
+
+```python
+# String Formatting
+name1 = 'Andrei'
+name2 = 'Sunny'
+print(f'Hello there {name1} and {name2}')       # Hello there Andrei and Sunny - Newer way to do things as of python 3.6
+print('Hello there {} and {}'.format(name1, name2))# Hello there Andrei and Sunny
+print('Hello there %s and %s' %(name1, name2))  # Hello there Andrei and Sunny --> you can also use %d, %f, %r for integers, floats, string representations of objects respectively
+```
