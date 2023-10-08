@@ -43,3 +43,29 @@ age = int(age)
 pi = input("What is the value of pi?")
 pi = float(pi)
 ```
+
+### Strings
+
+```python
+type('Hellloooooo') # str
+
+'I\'m thirsty'
+"I'm thirsty"
+"\n" # new line
+"\t" # adds a tab
+
+'Hey you!'[4] # y
+name = 'Andrei Neagoie'
+name[4]     # e
+name[:]     # Andrei Neagoie
+name[1:]    # ndrei Neagoie
+name[:1]    # A
+name[-1]    # e
+name[::1]   # Andrei Neagoie
+name[::-1]  # eiogaeN ierdnA
+name[0:10:2]# Ade e
+# : is called slicing and has the format [ start : end : step ]
+
+'Hi there ' + 'Timmy' # 'Hi there Timmy' --> This is called string concatenation
+'*'*10 # **********
+```
