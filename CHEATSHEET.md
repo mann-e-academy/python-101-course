@@ -25,3 +25,13 @@ type(4E2) # float - 4*10 to the power of 2
 10 // 3 # 3 --> floor division - no decimals and returns an int
 10 % 3  # 1 --> modulo operator - return the reminder. Good for deciding if number is even or odd
 ```
+
+```python
+# Basic Functions
+pow(5, 2)      # 25 --> like doing 5**2
+abs(-50)       # 50
+round(5.46)    # 5
+round(5.468, 2)# 5.47 --> round to nth digit
+bin(512)       # '0b1000000000' -->  binary format
+hex(512)       # '0x200' --> hexadecimal format
+```
