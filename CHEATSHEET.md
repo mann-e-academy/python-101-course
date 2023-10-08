@@ -97,3 +97,10 @@ print(f'Hello there {name1} and {name2}')       # Hello there Andrei and Sunny -
 print('Hello there {} and {}'.format(name1, name2))# Hello there Andrei and Sunny
 print('Hello there %s and %s' %(name1, name2))  # Hello there Andrei and Sunny --> you can also use %d, %f, %r for integers, floats, string representations of objects respectively
 ```
+
+```python
+#Palindrome check
+word = 'reviver'
+p = bool(word.find(word[::-1]) + 1)
+print(p) # True
+```
