@@ -155,3 +155,10 @@ my_list.insert(2, '!!!')   # None -->  [1, 2, '!!!', '3', True] - Inserts item a
 
 ' '.join(['Hello','There'])# 'Hello There' --> Joins elements using string as separator.
 ```
+
+```python
+# Copy a List
+basket = ['apples', 'pears', 'oranges']
+new_basket = basket.copy()
+new_basket2 = basket[:]
+```
