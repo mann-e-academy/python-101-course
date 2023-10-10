@@ -241,3 +241,5 @@ sorted_by_key = sorted([
 with open("myfile.txt") as f:
   lines = [line.strip() for line in f]
 ```
+
+### Dictionaries
