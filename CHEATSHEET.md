@@ -214,3 +214,11 @@ for row in range(len(mx)):
 # Combine columns with zip and *:
 [x for x in zip(*mx)] # [(1, 3), (2, 4)]
 ```
+
+```python
+# List Comprehensions
+# new_list[<action> for <item> in <iterator> if <some condition>]
+a = [i for i in 'hello']                  # ['h', 'e', 'l', 'l', '0']
+b = [i*2 for i in [1,2,3]]                # [2, 4, 6]
+c = [i for i in range(0,10) if i % 2 == 0]# [0, 2, 4, 6, 8]
+```
