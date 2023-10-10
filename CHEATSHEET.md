@@ -342,3 +342,5 @@ set1.isdisjoint(set2)                 # False --> return True if two sets have a
 # hashable --> it can be used as a key in a dictionary or as an element in a set.
 <frozenset> = frozenset(<collection>)
 ```
+
+### Operators
