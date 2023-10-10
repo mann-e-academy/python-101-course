@@ -180,3 +180,11 @@ del [1,2,3][0] #
 sorted([1,2,5,3])        # [1, 2, 3, 5] --> new list created
 list(reversed([1,2,5,3]))# [3, 5, 2, 1] --> reversed() returns an iterator
 ```
+
+```python
+# Useful operations
+1 in [1,2,5,3]  # True
+min([1,2,3,4,5])# 1
+max([1,2,3,4,5])# 5
+sum([1,2,3,4,5])# 15
+```
