@@ -144,3 +144,14 @@ my_list[0:3:2]             # [1, '3']
 
 # : is called slicing and has the format [ start : end : step ]
 ```
+
+```python
+# Add to List
+my_list * 2                # [1, 2, '3', True, 1, 2, '3', True]
+my_list + [100]            # [1, 2, '3', True, 100] --> doesn't mutate original list, creates new one
+my_list.append(100)        # None --> Mutates original list to [1, 2, '3', True, 100]          # Or: <list> += [<el>]
+my_list.extend([100, 200]) # None --> Mutates original list to [1, 2, '3', True, 100, 200]
+my_list.insert(2, '!!!')   # None -->  [1, 2, '!!!', '3', True] - Inserts item at index and moves the rest to the right.
+
+' '.join(['Hello','There'])# 'Hello There' --> Joins elements using string as separator.
+```
