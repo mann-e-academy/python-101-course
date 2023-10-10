@@ -162,3 +162,12 @@ basket = ['apples', 'pears', 'oranges']
 new_basket = basket.copy()
 new_basket2 = basket[:]
 ```
+
+```python
+# Remove from List
+[1,2,3].pop()    # 3 --> mutates original list, default index in the pop method is -1 (the last item)
+[1,2,3].pop(1)   # 2 --> mutates original list
+[1,2,3].remove(2)# None --> [1,3] Removes first occurrence of item or raises ValueError.
+[1,2,3].clear()  # None --> mutates original list and removes all items: []
+del [1,2,3][0] # 
+```
