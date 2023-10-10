@@ -402,3 +402,21 @@ while <condition that evaluates to boolean>:
 ```
 
 ### Error Handling
+
+```python
+try:
+  5/0
+except ZeroDivisionError:
+  print("No division by zero!")
+```
+
+```python
+while True:
+  try:
+    x = int(input('Enter your age: '))
+  except ValueError:
+    print('Oops!  That was no valid number.  Try again...')
+  else: # code that depends on the try block running successfully should be placed in the else block.
+    print('Carry on!')
+    break
+```
