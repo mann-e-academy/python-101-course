@@ -188,3 +188,11 @@ min([1,2,3,4,5])# 1
 max([1,2,3,4,5])# 5
 sum([1,2,3,4,5])# 15
 ```
+
+```python
+# Get First and Last element of a list
+mList = [63, 21, 30, 14, 35, 26, 77, 18, 49, 10]
+first, *x, last = mList
+print(first) #63
+print(last) #10
+```
