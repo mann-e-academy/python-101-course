@@ -171,3 +171,12 @@ new_basket2 = basket[:]
 [1,2,3].clear()  # None --> mutates original list and removes all items: []
 del [1,2,3][0] # 
 ```
+
+```python
+# Ordering
+[1,2,5,3].sort()         # None --> Mutates list to [1, 2, 3, 5]
+[1,2,5,3].sort(reverse=True) # None --> Mutates list to [5, 3, 2, 1]
+[1,2,5,3].reverse()      # None --> Mutates list to [3, 5, 2, 1]
+sorted([1,2,5,3])        # [1, 2, 3, 5] --> new list created
+list(reversed([1,2,5,3]))# [3, 5, 2, 1] --> reversed() returns an iterator
+```
