@@ -400,3 +400,5 @@ while <condition that evaluates to boolean>:
   if <condition that evaluates to boolean>:
     continue # continue to the next line in the block
 ```
+
+### Error Handling
