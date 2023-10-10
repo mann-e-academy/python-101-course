@@ -271,3 +271,5 @@ new_dict = my_dict.pop('favourite_snack')
 ```python
 {key: value for key, value in new_dict.items() if key == 'age' or key == 'name'} # {'name': 'Andrei', 'age': 32} --> Filter dict by keys
 ```
+
+### Tuples
