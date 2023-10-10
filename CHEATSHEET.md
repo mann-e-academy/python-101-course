@@ -243,3 +243,19 @@ with open("myfile.txt") as f:
 ```
 
 ### Dictionaries
+
+```python
+my_dict = {'name': 'Andrei Neagoie', 'age': 30, 'magic_power': False}
+my_dict['name']                      # Andrei Neagoie
+len(my_dict)                         # 3
+list(my_dict.keys())                 # ['name', 'age', 'magic_power']
+list(my_dict.values())               # ['Andrei Neagoie', 30, False]
+list(my_dict.items())                # [('name', 'Andrei Neagoie'), ('age', 30), ('magic_power', False)]
+my_dict['favourite_snack'] = 'Grapes'# {'name': 'Andrei Neagoie', 'age': 30, 'magic_power': False, 'favourite_snack': 'Grapes'}
+my_dict.get('age')                   # 30 --> Returns None if key does not exist.
+my_dict.get('ages', 0 )              # 0 --> Returns default (2nd param) if key is not found
+
+#Remove key
+del my_dict['name']
+my_dict.pop('name', None)
+```
