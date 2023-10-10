@@ -222,3 +222,16 @@ a = [i for i in 'hello']                  # ['h', 'e', 'l', 'l', '0']
 b = [i*2 for i in [1,2,3]]                # [2, 4, 6]
 c = [i for i in range(0,10) if i % 2 == 0]# [0, 2, 4, 6, 8]
 ```
+
+```python
+# Advanced Functions
+list_of_chars = list('Helloooo')                                   # ['H', 'e', 'l', 'l', 'o', 'o', 'o', 'o']
+sum_of_elements = sum([1,2,3,4,5])                                 # 15
+element_sum = [sum(pair) for pair in zip([1,2,3],[4,5,6])]         # [5, 7, 9]
+sorted_by_second = sorted(['hi','you','man'], key=lambda el: el[1])# ['man', 'hi', 'you']
+sorted_by_key = sorted([
+                       {'name': 'Bina', 'age': 30},
+                       {'name':'Andy', 'age': 18},
+                       {'name': 'Zoey', 'age': 55}],
+                       key=lambda el: (el['name']))# [{'name': 'Andy', 'age': 18}, {'name': 'Bina', 'age': 30}, {'name': 'Zoey', 'age': 55}]
+```
