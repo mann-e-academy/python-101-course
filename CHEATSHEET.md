@@ -267,3 +267,7 @@ new_dict = dict([['name','Andrei'],['age',32],['magic_power',False]])  # Creates
 new_dict = dict(zip(['name','age','magic_power'],['Andrei',32, False]))# Creates a dict from two collections.
 new_dict = my_dict.pop('favourite_snack')  
 ```
+
+```python
+{key: value for key, value in new_dict.items() if key == 'age' or key == 'name'} # {'name': 'Andrei', 'age': 32} --> Filter dict by keys
+```
