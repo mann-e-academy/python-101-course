@@ -235,3 +235,9 @@ sorted_by_key = sorted([
                        {'name': 'Zoey', 'age': 55}],
                        key=lambda el: (el['name']))# [{'name': 'Andy', 'age': 18}, {'name': 'Bina', 'age': 30}, {'name': 'Zoey', 'age': 55}]
 ```
+
+```python
+# Read line of a file into a list
+with open("myfile.txt") as f:
+  lines = [line.strip() for line in f]
+```
