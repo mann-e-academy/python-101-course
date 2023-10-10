@@ -420,3 +420,7 @@ while True:
     print('Carry on!')
     break
 ```
+
+## More cheatsheets
+
+[GTO76's work on python cheatsheet](https://github.com/gto76/python-cheatsheet)
